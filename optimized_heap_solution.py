@@ -13,7 +13,6 @@ Space Complexity: O(n)
 import heapq
 from collections import defaultdict
 
-
 class PairInfo:
     """Stores information about a character pair"""
     def __init__(self, pair, count=0, first_pos=float('inf')):
