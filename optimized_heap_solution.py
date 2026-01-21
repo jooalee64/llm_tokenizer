@@ -1,8 +1,6 @@
 """
 Re-Pair Compression Algorithm - Production-Ready Implementation
 =================================================================
-
-Follows the PDF specification exactly:
 - Linked list via arrays (next[], prev[], char[])
 - Hash map for O(1) pair lookup
 - Priority queue (max heap) for O(log n) operations
